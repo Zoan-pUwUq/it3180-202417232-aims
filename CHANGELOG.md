@@ -5,6 +5,9 @@ Tất cả các thay đổi đáng chú ý của dự án AIMS-mini sẽ đượ
 và tuân thủ [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Added
+- Phương thức `Cart.sort_by_title()` và `Cart.sort_by_cost()` phục vụ sắp xếp đĩa trong giỏ hàng.
+
 
 ## [1.0.0] - 2026-11-01
 ### Added
