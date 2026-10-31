@@ -1,6 +1,6 @@
 import unittest
 from aims.dvd import DigitalVideoDisc
-from aims.search import search_by_title
+from aims.search import search_by_title, search_by_category
 
 
 class TestSearch(unittest.TestCase):
@@ -20,6 +20,10 @@ class TestSearch(unittest.TestCase):
     def test_search_by_title_not_found(self):
         results = search_by_title(self.dvds, "Nonexistent")
         self.assertEqual(len(results), 0)
+
+    def test_search_by_category(self):
+        results = search_by_category(self.dvds, "animation")
+        self.assertEqual(len(results), 2)
 
 
 if __name__ == "__main__":
