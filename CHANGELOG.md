@@ -11,6 +11,10 @@ và tuân thủ [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Phương thức `Cart.sort_by_title()` và `Cart.sort_by_cost()` phục vụ sắp xếp đĩa trong giỏ hàng.
 - Chức năng tìm kiếm đĩa DVD theo thể loại `search_by_category()` trong module `aims.search`.
 
+## [1.0.1] - 2026-11-01
+### Fixed
+- Sửa lỗi hàm `search_by_title()` không phân biệt hoa thường (#20).
+
 ## [1.0.0] - 2026-11-01
 ### Added
 - Phương thức `Cart.print_cart()` hiển thị danh sách đĩa và tổng chi phí.
